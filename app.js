@@ -59,11 +59,11 @@ let user = {
         firstname: 'giorgi',
         lastname: 'saakadze',
         age: 32,
-        isLoggedIn: false
+        isLoggedIn: true
     }
 
 function printName(object) {
-    if(object['isLoggedIn'] = true) {
+    if(object['isLoggedIn'] == true) {
         return(object[key1]+' '+object[key2])
     }else{
         return(object['isLoggedIn'])  
